@@ -9,6 +9,9 @@ module "db_services_sg" {
 #   ingress_cidr_blocks = ["0.0.0.0/0"]
 #   ingress_rules       = ["mysql-3306-tcp"]
 
+
+
+    ingress_cidr_blocks      = ["0.0.0.0/0"]
     ingress_rules =  ["all-all"]
     egress_rules = ["all-all"]
 
